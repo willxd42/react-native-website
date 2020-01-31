@@ -305,6 +305,19 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ```
+For those running on MacOs Catalina,
+
+```sh
+  touch .zshrc
+```
+Add line "source ~/.bash_profile" without quotes and save
+
+```sh
+  source ~/.bash_profile
+```
+Quit and re-open terminal
+
+start using adb devices
 
 <block class="native linux android" />
 
